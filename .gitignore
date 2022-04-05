@@ -1,0 +1,24 @@
+# macOS specific
+.DS_Store
+.nosync
+
+# latex specific
+report/*.log
+report/*.aux
+report/*.out
+report/*.pdf
+report/_minted-report
+report/*.gz
+report/*.bib
+report/*.bbl
+report/*.blg
+report/*.auxlock
+
+# npm
+node_modules
+build
+package-lock.json
+
+# ts
+dist
+res

@@ -1,0 +1,46 @@
+{
+  "type": "module",
+  "name": "ts-opaque-ea",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --experimental-modules app.js",
+    "test": "npx jest"
+  },
+  "keywords": [
+    "typescript",
+    "opaque"
+  ],
+  "author": "Ryan P. Steiger",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node-fetch": "^2.5.10",
+    "@types/sjcl": "^1.0.29",
+    "elliptic": "^6.5.4",
+    "node-fetch": "^2.6.1",
+    "sjcl": "^1.0.8"
+  },
+  "jest": {
+    "verbose": true,
+    "roots": [
+      "<rootDir>/src"
+    ],
+    "transform": {
+      "^.+\\.(js|ts|tsx)$": "ts-jest"
+    }
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "semi": false,
+    "singleQuote": true,
+    "printWidth": 120
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.22",
+    "@types/node": "^14.14.41",
+    "jest": "^26.6.3",
+    "prettier": "2.2.1",
+    "ts-jest": "^26.5.5"
+  }
+}
